@@ -15,9 +15,7 @@ connesso ad un DBMS ORACLE 18c Express Edition
 Si è realizzato una piccola base di dati su Oracle Live, caratterizzata da tutte le regole imposte sulla trattazione ma con indice di data ristretto per questioni di dimensione (dal 19 Marzo al 25 Marzo) seguendo le linee guida descritte nel Cap.5, Cap.6 e 7
 Grazie ad Oracle Live Tutorial è possibile simulare il run delle DDL e delle DML definite su
 questa trattazione.<br>
-<a href="https://livesql.oracle.com/apex/livesql/file/tutorial_J6ZPO3GWTIOPQBJ48RHTTFJXB.html" target="blank" style="display:inline-block;border:18px solid rgb(194, 0, 0);border-radius:8px;padding:1px;background:linear-gradient(to left,rgb(194, 0, 0),rgb(194, 0, 0));color:rgb(255, 255, 255)"> Vai al Simulatore </a><br>
-<img src="https://www.oracle.com/technetwork/database/live-sql-logo-2715850.png" alt="LiveSQL"><br>
-
+<a href="https://livesql.oracle.com/apex/livesql/file/tutorial_J6ZPO3GWTIOPQBJ48RHTTFJXB.html" target="blank" style="display:inline-block;border:18px solid rgb(194, 0, 0);border-radius:8px;padding:1px;background:linear-gradient(to left,rgb(194, 0, 0),rgb(194, 0, 0));color:rgb(255, 255, 255)"> Vai al Simulatore <img src="https://www.oracle.com/technetwork/database/live-sql-logo-2715850.png" alt="LiveSQL"></a>
 
 
 # Progetto realizzato per soli scopi dimostrativi ed educativi
