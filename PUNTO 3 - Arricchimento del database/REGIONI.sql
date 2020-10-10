@@ -1,0 +1,52 @@
+ALTER TABLE REGIONI ADD  
+   superficie    NUMERIC(8,2);
+ALTER TABLE REGIONI ADD  
+   densità_sup INTEGER;
+ALTER TABLE REGIONI ADD 
+   num_residenti INTEGER;
+ALTER TABLE REGIONI ADD 
+   num_province INTEGER;
+ALTER TABLE REGIONI ADD  
+   presidente    VARCHAR(100);
+ALTER TABLE REGIONI ADD 
+   cod_istat     INTEGER; 
+ALTER TABLE REGIONI ADD 
+   cod_fiscale   INTEGER;
+ALTER TABLE REGIONI ADD 
+   piva          INTEGER;
+ALTER TABLE REGIONI ADD 
+   pec           VARCHAR(100);
+ALTER TABLE REGIONI ADD 
+   sito          VARCHAR(100);
+ALTER TABLE REGIONI ADD 
+   sede          VARCHAR(100);
+ALTER TABLE REGIONI ADD
+   num_aereoporti INTEGER;
+ALTER TABLE REGIONI ADD
+   num_stazioni INTEGER;
+ALTER TABLE REGIONI ADD
+   num_autostrade INTEGER;
+ALTER TABLE REGIONI ADD
+   num_strade_statali INTEGER;
+
+UPDATE REGIONI SET superficie = 10831.84,densità_sup = 121,num_residenti = 1326513,num_province = 4,presidente = 'Luciano D''Alfonso',cod_istat = 13,cod_fiscale = 80003170661,piva = NULL,pec = 'urp@pec.regione.abruzzo.it',sito = 'www.regione.abruzzo.it',sede = 'Regione Abruzzo / Palazzo Silone - Via Leonardo da Vinci 6, 67100 L''Aquila',num_aereoporti = 2,num_stazioni = 81,num_autostrade = 1,num_strade_statali = 48 WHERE denominazione_regione = 'Abruzzo';
+UPDATE REGIONI SET superficie = 10073.32,densità_sup = 56,num_residenti = 573694,num_province = 2,presidente = 'Marcello Pittella',cod_istat = 17,cod_fiscale = 80002950766,piva = NULL,pec = 'presidenza.giunta@cert.regione.basilicata.it',sito = 'www.regione.basilicata.it',sede = 'Regione Basilicata / Via Vincenzo Verrastro 4, 85100 Potenza',num_stazioni = 43,num_autostrade = 2,num_strade_statali = 30 WHERE denominazione_regione = 'Basilicata';
+UPDATE REGIONI SET superficie = 15221.9,densità_sup = 128,num_residenti = 1970521,num_province = 5,presidente = 'Gerardo Mario Oliverio',cod_istat = 18,cod_fiscale = 02205340793,piva = NULL,pec = 'dipartimento.presidenza@pec.regione.calabria.it',sito = 'www.regione.calabria.it',sede = 'Regione Calabria / Via Massara 2, 88100 Catanzaro',num_aereoporti = 5,num_stazioni = 87,num_autostrade = 3,num_strade_statali = 49 WHERE denominazione_regione = 'Calabria';
+UPDATE REGIONI SET superficie = 13670.95,densità_sup = 424,num_residenti = 5850850,num_province = 5,presidente = 'Vincenzo De Luca',cod_istat = 15,cod_fiscale = 80011990639,piva = 03516070632,pec = 'agc02@pec.regione.campania.it',sito = 'www.regione.campania.it',sede = 'Regione Campania / Via Santa Lucia 81, 80132 Napoli',num_aereoporti = 6,num_stazioni = 268,num_autostrade = 4,num_strade_statali = 41 WHERE denominazione_regione = 'Campania';
+UPDATE REGIONI SET superficie = 22452.78,densità_sup = 199,num_residenti = 4448146,num_province = 9,presidente = 'Stefano Bonaccini',cod_istat = 08,cod_fiscale = 80062590379,piva = NULL,pec = 'urp@postacert.regione.emilia-romagna.it',sito = 'www.regione.emilia-romagna.it',sede = 'Regione Emilia-Romagna / Viale Aldo Moro 52, 40127 Bologna',num_aereoporti = 14,num_stazioni = 211,num_autostrade = 2,num_strade_statali = 30 WHERE denominazione_regione = 'Emilia-Romagna';
+UPDATE REGIONI SET superficie = 7862.3,densità_sup = 153,num_residenti = 1221218,num_province = 4,presidente = 'Debora Serracchiani',cod_istat = 06,cod_fiscale = 80014930327,piva = 00526040324,pec = 'regione.friuliveneziagiulia@certregione.fvg.it',sito = 'www.regione.fvg.it',sede = 'Regione autonoma Friuli Venezia Giulia / Piazza Unità d''Italia 1, 34121 Trieste',num_aereoporti = 6,num_stazioni = 49,num_autostrade = 3,num_strade_statali = 11 WHERE denominazione_regione = 'Friuli Venezia Giulia';
+UPDATE REGIONI SET superficie = 17232.29,densità_sup = 341,num_residenti = 5888472,num_province = 5,presidente = 'Nicola Zingaretti',cod_istat = 12,cod_fiscale = 80143490581,piva = NULL,pec = 'protocollo-istituzionale@regione.lazio.legalmail.it',sito = 'www.regione.lazio.it',sede = 'Regione Lazio / Via Rosa Raimondi Garibaldi 7, 00145 Roma',num_aereoporti = 11,num_stazioni = 292,num_autostrade = 2,num_strade_statali = 35 WHERE denominazione_regione = 'Lazio';
+UPDATE REGIONI SET superficie = 5416.21,densità_sup = 286,num_residenti = 1571053,num_province = 4,presidente = 'Giovanni Toti',cod_istat = 07,cod_fiscale = NULL,piva = 00849050109,pec = 'protocollo@pec.regione.liguria.it',sito = 'www.regione.liguria.it',sede = 'Regione Liguria / Piazza De Ferrari 1, 16121 Genova',num_aereoporti = 3,num_stazioni = 76,num_strade_statali = 31 WHERE denominazione_regione = 'Liguria';
+UPDATE REGIONI SET superficie = 23863.65,densità_sup = 422,num_residenti = 10008349,num_province = 12,presidente = 'Roberto Maroni',cod_istat = 03,cod_fiscale = 80050050154,piva = 12874720159,pec = 'presidenza@pec.regione.lombardia.it',sito = 'www.regione.lombardia.it',sede = 'Regione Lombardia / Piazza Città di Lombardia 1, 20124 Milano',num_aereoporti = 16,num_stazioni = 404,num_autostrade = 1,num_strade_statali = 36 WHERE denominazione_regione = 'Lombardia';
+UPDATE REGIONI SET superficie = 9401.38,densità_sup = 162,num_residenti = 1543752,num_province = 5,presidente = 'Luca Ceriscioli',cod_istat = 11,cod_fiscale = 80008630420,piva = 00481070423,pec = 'regione.marche.protocollogiunta@emarche.it',sito = 'www.regione.marche.it',sede = 'Regione Marche / Via Gentile da Fabriano 9, 60125 Ancona',num_aereoporti = 3,num_stazioni = 43,num_autostrade = 1,num_strade_statali = 36 WHERE denominazione_regione = 'Marche';
+UPDATE REGIONI SET superficie = 4460.65,densità_sup = 69,num_residenti = 312027,num_province = 2,presidente = 'Paolo Di Laura Frattura',cod_istat = 14,cod_fiscale = 00169440708,piva = NULL,pec = 'regionemolise@pec.regione.molise.it',sito = 'www.regione.molise.it',sede = 'Regione Molise / Via Genova 11, 86100 Campobasso',num_stazioni = 18,num_strade_statali = 25 WHERE denominazione_regione = 'Molise';
+UPDATE REGIONI SET superficie = 25387.07,densità_sup = 172,num_residenti = 4404246,num_province = 8,presidente = 'Sergio Chiamparino',cod_istat = 01,cod_fiscale = 80087670016,piva = 02843860012,pec = 'gabinettopresidenza-giunta@cert.regione.piemonte.it',sito = 'www.regione.piemonte.it',sede = 'Regione Piemonte / Piazza Castello 165, 10122 Torino',num_aereoporti = 10,num_stazioni = 293,num_autostrade = 1,num_strade_statali = 23 WHERE denominazione_regione = 'Piemonte';
+UPDATE REGIONI SET superficie = 19540.9,densità_sup = 206,num_residenti = 4077166,num_province = 6,presidente = 'Michele Emiliano',cod_istat = 16,cod_fiscale = 80017210727,piva = NULL,pec = 'comunicazione.istituzionale@pec.rupar.puglia.it',sito = 'www.regione.puglia.it',sede = 'Regione Puglia / Lungomare Nazario Sauro 33, 70121 Bari',num_aereoporti = 10,num_stazioni = 206,num_strade_statali = 37 WHERE denominazione_regione = 'Puglia';
+UPDATE REGIONI SET superficie = 24100.02,densità_sup = 68,num_residenti = 1658138,num_province = 5,presidente = 'Francesco Pigliaru',cod_istat = 20,cod_fiscale = 80002870923,piva = NULL,pec = 'affari.generali@pec.regione.sardegna.it',sito = 'www.regione.sardegna.it',sede = 'Regione autonoma della Sardegna / Viale Trento 69, 09123 Cagliari',num_aereoporti = 7,num_stazioni = 137,num_strade_statali = 62 WHERE denominazione_regione = 'Sardegna';
+UPDATE REGIONI SET superficie = 25832.39,densità_sup = 194,num_residenti = 5074261,num_province = 9,presidente = 'Rosario Crocetta',cod_istat = 19,cod_fiscale = 80012000826,piva = 02711070827,pec = 'regione.sicilia@certmail.regione.sicilia.it',sito = 'pti.regione.sicilia.it',sede = 'Regione Siciliana / Piazza Indipendenza 21, 90129 Palermo',num_aereoporti = 24,num_stazioni = 220,num_autostrade = 10,num_strade_statali = 71 WHERE denominazione_regione = 'Sicilia';
+UPDATE REGIONI SET superficie = 22987.04,densità_sup = 162,num_residenti = 3744398,num_province = 10,presidente = 'Enrico Rossi',cod_istat = 09,cod_fiscale = 01386030488,piva = NULL,pec = 'regionetoscana@postacert.toscana.it',sito = 'www.regione.toscana.it',sede = 'Regione Toscana / Palazzo Strozzi Sacrati - Piazza del Duomo 10, 50122 Firenze',num_aereoporti = 11,num_stazioni = 192,num_autostrade = 2,num_strade_statali = 34 WHERE denominazione_regione = 'Toscana';
+UPDATE REGIONI SET superficie = 13605.5,densità_sup = 79,num_residenti = 1059114,num_province = 2,presidente = 'Ugo Rossi',cod_istat = 04,cod_fiscale = 80003690221,piva = NULL,pec = 'regione.taa@regione.taa.legalmail.it',sito = 'www.regione.taa.it',sede = 'Regione autonoma Trentino-Alto Adige / Via Gazzoletti 2, 38122 Trento',num_aereoporti = 4,num_stazioni = 93,num_strade_statali = 23 WHERE denominazione_regione = 'P.A. Trento';
+UPDATE REGIONI SET superficie = 13605.5,densità_sup = 79,num_residenti = 1059114,num_province = 2,presidente = 'Ugo Rossi',cod_istat = 04,cod_fiscale = 80003690221,piva = NULL,pec = 'regione.taa@regione.taa.legalmail.it',sito = 'www.regione.taa.it',sede = 'Regione autonoma Trentino-Alto Adige / Via Gazzoletti 2, 38122 Trento',num_aereoporti = 4,num_stazioni = 93,num_strade_statali = 23 WHERE denominazione_regione = 'P.A. Bolzano';
+UPDATE REGIONI SET superficie = 8464.33,densità_sup = 104,num_residenti = 891181,num_province = 2,presidente = 'Catiuscia Marini',cod_istat = 10,cod_fiscale = NULL,piva = 01212820540,pec = 'regione.giunta@postacert.umbria.it',sito = 'www.regione.umbria.it',sede = 'Regione Umbria / Palazzo Donini - Corso Vannucci 96, 06121 Perugia',num_aereoporti = 2,num_stazioni = 82,num_autostrade = 1,num_strade_statali = 28 WHERE denominazione_regione = 'Umbria';
+UPDATE REGIONI SET superficie = 3260.9,densità_sup = 39,num_residenti = 127329,num_province = 1,presidente = 'Augusto Rollandin',cod_istat = 02,cod_fiscale = 80002270074,piva = 00368440079,pec = 'segretario_generale@pec.regione.vda.it',sito = 'www.regione.vda.it',sede = 'Regione autonoma Valle d''Aosta / Piazza Deffeyes 1, 11100 Aosta',num_aereoporti = 1,num_stazioni = 22,num_strade_statali = 4 WHERE denominazione_regione = 'Valle d'Aosta';
+UPDATE REGIONI SET superficie = 18407.42,densità_sup = 267,num_residenti = 4915123,num_province = 7,presidente = 'Luca Zaia',cod_istat = 05,cod_fiscale = 80007580279,piva = 02392630279,pec = 'protocollo.generale@pec.regione.veneto.it',sito = 'www.regione.veneto.it',sede = 'Regione Veneto / Palazzo Balbi - Dorsoduro 3901, 30123 Venezia',num_aereoporti = 14,num_stazioni = 181,num_strade_statali = 19 WHERE denominazione_regione = 'Veneto';
