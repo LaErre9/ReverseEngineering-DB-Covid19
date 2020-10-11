@@ -19,7 +19,7 @@ questa trattazione.<br>
 
 
 # Progetto realizzato per soli scopi dimostrativi ed educativi
-La seguente trattazione è mirata alla realizzazione di un progetto di una Base di dati seguendo una documentazione adeguata.
+La seguente trattazione è mirata alla realizzazione di un progetto di una Base di dati per l'esame di Basi di Dati all'Università degli Studi di Napoli Federico II seguendo una documentazione adeguata.
 
 # Realizzato da
 <a title="Antonio Romano" href="https://github.com/LaErre9" target="_blank" > Antonio Romano, </a><a title="Giuseppe Riccio" href="https://github.com/giuseppericcio" target="_blank" > Giuseppe Riccio.</a>
